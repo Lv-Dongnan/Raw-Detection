@@ -2,9 +2,9 @@
 
 ## Writer：吕东南（LV-NONGNAN）
 
-## 项目名称：Raw-MMD 和 Raw-Detect
+## 项目名称：LoRA-MMD 和 Raw-Detect
 
-### Raw-MMD
+### LoRA-MMD
 
 Raw-MMD 是一个处理 **RAW 图像** 的深度学习网络，主要用于 **物体检测** 任务。该网络利用 **MMDetection 框架**，结合 **LoRA 技术** 优化物体检测模型，直接对 RAW 图像进行物体检测。与传统方法不同，Raw-MMD 跳过了图像信号处理（ISP）步骤，避免了图像格式转换过程中可能导致的图像质量损失。通过 **LoRA 优化**，该网络在减少计算资源消耗的同时保持了高精度的检测效果。
 
